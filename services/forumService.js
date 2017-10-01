@@ -4,7 +4,6 @@ angular
 
     var _posts = []
     var _postId = 4
-    
 
     function Post(id, title, name, content, link, likes, dislikes) {
       this.id = id;
@@ -65,13 +64,10 @@ angular
     this.addPost = function(title, name, content, link) {
       _posts.unshift(new Post(_posts.length, title, name, content, link, 0, 0))
       console.log(_posts);
-      
     }
     
     this.updatePost = function(postId, title, name, content, link) {
       _posts.splice(postId, 1, new Post(postId, title, name, content, link))
-      
-
     }
 
     this.deletePost = function(postId) {
@@ -82,5 +78,4 @@ angular
       }
     }
         
-
 });

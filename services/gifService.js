@@ -14,12 +14,4 @@ angular
       return currentTestMeme;
     }
 
-
-  //   $scope.grabMeme = function(meme) {
-  //   console.log(meme.url)
-  //   $scope.currentMeme.push(meme);
-  //   console.log($scope.currentMeme)
-  // }
-
-
   });

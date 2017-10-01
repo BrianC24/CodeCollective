@@ -1,16 +1,12 @@
 angular
   .module("hubApp")
   .controller("forumController", function($scope, $state, $stateParams, forumService) {
- 
-  
   
     forumService.getPosts().then(function(response) {
       $scope.posts = response;
       $scope.post = forumService.getPostById($stateParams.id);
       console.log($scope.posts);
     })
-
- 
  
   $scope.addLike = function(post) {
     if (post.likeCounter == true){

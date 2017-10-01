@@ -13,12 +13,5 @@ angular
     this.urlToImage = urlToImage;
     this.publishedAt = publishedAt;
   }
-
-
-
-
-
-
-
-    
+  
   })

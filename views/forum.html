@@ -5,9 +5,11 @@
             <div class="form-group col-md-10">
                 <input type="text" class="form-control" placeholder="Search..." ng-model="forumSearch">
             </div>
+
             <div class="col-md-2">
                 <button class="btn btn-info forumBtn" ng-click="addTopic()">Create A Topic</button>
             </div> 
+
         </div>
         <div class="row">
             <div class="container f">
@@ -18,13 +20,16 @@
                             <p><strong>Content:</strong> {{ post.content }}</p>
                             <p><strong>Link: </strong><a class="links" ng-href="{{ post.link }}" target="_blank">{{ post.link }}</a></p>
                             <div class="forum-footer">
+
                                 <div class="col-md-6">
                                     <p class="post-name">Posted by: {{ post.name }}</p>
                                 </div>
+
                                 <div class="col-md-3">
                                     <button ng-show="post.showButton" ng-click="deletePost(post)" class="btn btn-danger btn-sm pull-right cbtn buttons" id="deleteButton"  >Delete</button>
                                     <button ng-show="post.showButton" ui-sref="forumTopic({'id': post.id})"class="btn btn-info btn-sm pull-right cbtn buttons" id="updateButton" >Update</button>
                                 </div>
+
                                 <div class="col-md-3 right">
                                     <button type="button" class="btn btn-default btn-sm likeButton"  ng-click="addLike(post)" ng-class="{ 'liked': !post.likeCounter }" >
                                         <span class="fa fa-thumbs-up" ></span> Like
@@ -35,6 +40,7 @@
                                     </button>
                                     {{ post.dislikes }}
                                 </div>
+                                
                             </div>
                         </div>
                             

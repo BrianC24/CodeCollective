@@ -19,7 +19,6 @@ angular
     $scope.gifs.shift();
   }
 
-
   $scope.showMeTheMemes = function() {
     $state.go("meme")
     console.log("click");

@@ -11,9 +11,7 @@
     padding: 10px;
     overflow: hidden;
     display: inline;
-    
 }
-
 
 li {
     float: left;
@@ -39,10 +37,10 @@ li a:hover {
 li a:active {
     box-shadow: 0 9px 16px 0 red;
 }
+
 li a:visited {
     text-decoration: none;
 }
-
 
 .color {
     background-color: #363636;
@@ -54,13 +52,11 @@ a {
 }
 
 /* navbar */
-
 .item img{
     width: 100%;
     margin: auto;
     position: relative;
     height: 500px !important;
-    
 }
 
 #logo {
@@ -72,7 +68,6 @@ a {
 #foot {
     width: 40px;
     height: 40px;
-    
 }
 
 h1 {
@@ -103,14 +98,11 @@ h2 {
     z-index: 9999;
 }
 
-
-
 .carousel-indicators {
     margin-left: 0px;
 }
  
 /* image links */
-
 .rounded {
     width: 100%;
     padding: 40px;
@@ -138,8 +130,6 @@ h2 {
     border-top: 0;
     padding: 20px 20px 10px 20px; 
     font-family: 'Lato';
-    
-    
 }
 
 .panel-footer img {
@@ -149,6 +139,7 @@ h2 {
     margin-right: 10px;
     margin-left: 10px;
 }
+
 .panel-footer p {
     padding-top: 20px;
 }
@@ -160,7 +151,6 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
     padding: 100px 0px;
-    
 }
 
 .scroll {
@@ -195,17 +185,12 @@ h2 {
     padding-top: 40px;
 }
 
-
-
 #homeStudents {
     text-align: left;
     font-family: Roboto;
     font-weight: 10px;
     font-size: 45px;
-    
 }
-
-
 
 .gradient-grey-left {
     background: -moz-linear-gradient(left, rgba(30,30,30,0) 0%, rgba(30,30,30,1) 100%); 
