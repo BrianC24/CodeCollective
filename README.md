@@ -1,6 +1,6 @@
 # Code Collective 
 
-## CodeCollective is a website designed to integrate fun and professionalism within the Redwood Code community.
+## A website designed to integrate fun and professionalism within the Redwood Code community.
 
 ### Home page
 The home page includes the main languages and libraries that Redwood Code Academy teaches in the first 3 weeks.
