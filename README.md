@@ -1,34 +1,23 @@
 # Code Collective 
 
 ## A website designed to integrate fun and professionalism within the Redwood Code community.
+This project was created to demonstrate understanding of technologies: HTML, CSS, JS, Angular Js, JSON, Restful API's.
 
-### Home page
-The home page includes the main languages and libraries that Redwood Code Academy teaches in the first 3 weeks.
-At the bottom of the home page are clickable image icons to different websites in HTML, CSS, JavaScript and Angular.
-Using different css styles the home page has a modern and sleek design. It was made to demonstrate understanding of HTML and CSS
+### Framework
+The group agreed to create a website designed to help Redwood Code Academy students. The work was divided, I was in charge of the home page and the mock forum page. Jerri Ho was in charge of the tech news page, and Kenley Lewis was in charge of the gif/meme's page.
 
-The home page code is done by Brian Canlas.
+### Challenges
 
-### The Gif/Meme Page
+- First project where we all worked as a group. Making sure each others code would not break the others when pushing or pulling to the origin master.
 
-The Gif page is using a third party api from giphy.com and uses http get `requests to display the gifs. Users can specifically filter
-using the search bar. The Meme page lets users upload an image and write labels to create their memes. Users can also save the memes 
-they created. It was made to demonstrate understanding of Restful API's
+### Things Enjoyed
 
-The Gif/Meme Page is done by Kenley Lewis 
+- Designing and developing the home page.
+- Working as a team to complete the project and fix each others bugs.
 
-### Tech News
+### Things i would do differently 
 
-Tech news is a page to give Redwood Code Academy students a resource to see daily news related to tech. The news page is using a third
-party api from The Verge. The page also feautures a table with prices, market caps, and other metrics for cryptocurrency. It was made to demonstrate understanding of Restful API's
-
-The Tech News page is done by Jerri Ho 
-
-### Forum Page
-
-The forum page is a mock forum page. It uses an in memory JSON database. Users can create, update, and delete a post, as well as like and dislike a post. It was made to demonstrate understanding of crud functions.  
-
-Forum Page is done by Brian Canlas
+- Time estimation should account for bugs and changes in design. 
 
 
 
